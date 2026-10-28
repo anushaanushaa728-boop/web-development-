@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:Arial,sana-serif;
+    background:#f1f5f9;
+    color:#1e293b;
+}
+header{
+    background:#1e3a8a;
+    color:white;
+    text-align:center;
+    padding:10px;
+}
+.Container{
+    max-width:1000px;
+    margin:30px auto;
+    padding:0 20px;
+}
+.Summary{
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:12px;
+}
+.summaryh2,.notice h3{
+    margin-bottom:10px;
+}
+footer{
+    font-size:22px;
+    text-align:center;
+}
+.notice{
+    border-left:5px solid #2563eb;`
+}
+
+.search-pannel{
+    background:white;
+    padding:24px;
+    border-radius:12px;
+
+}
+.profile{
+    background:white;
+    padding:22px;
+    border-radius:12px;
+    border-top:5px solid 
+}
+.search-pannel{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+input{
+    max-width:200px;
+    padding:12px;
+    border:1px solid #cbcbcb;
+    border-radius:8px;
+    font-size:
+}
+button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:12px 16px;
+    border-radius:8px;
+    cursor:
+}
+
+.profiles{
+
+}
+.profile-card p{
+    margin-bottom:8px;
+    line-height:1.5;
+}
+.skills{
+    display:inline-block;
+    
+}

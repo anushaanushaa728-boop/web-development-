@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="loginbtn" onclick="Loginbtn()">Login</button>
+    <button id="follow" onclick="Followbtn()">follow </button>
+    <p id="myp"> "this is old Doll paragraph"</p>
+    <button onclick="updatecss()">Update CSS</button>
+    <div id="mydiv">
+        This is Div
+    </div>
+
+    <script>
+        function Loginbtn(){
+           const btn=document.getElementById("loginbtn")
+           loginbtn.textContent="Logout"
+        }
+        function Followbtn(){
+           const btn=document.getElementById("follow")
+           followbtn.textContent="Following"
+        }
+        function updates(){
+           const para=document.getElementById("myp")
+           para.style.color="red"
+           para.style.backgroundColor="black"
+           para.style.textAlign="center"
+           const  box =doument.getElementById("mydiv")
+           
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family:Arial;
+            background-color:#f9f9f9;
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            gap:22px;
+            align-items: center;
+            flex-wrap:wrap;
+        }
+        .product{
+            border:1px solid grey;
+            border-radius:12px;
+            width:250px;
+            padding:12px;
+            margin-bottom:15px;
+            text-align:center;
+            box-shadow:4px 4px 8px black;
+        }
+        .product:img{
+            width:100%;
+            height:160px;
+            object-fit:cover;
+            border-radius:12px;
+        }
+        .product:hover{
+            background-color:#eba0a0;
+            color:white;
+            transition:2s;
+            transform:scale(1.03);
+        }
+        .product button{
+            background-color:orange;
+            padding:10px;
+            border:none;
+            border-radius:12px;
+            width:85%
+        }
+    </style>
+</head>
+<body>
+    <div class="product">
+        <img src="https://m.media-amazon.com/images/I/6181VJVcgSL._AC_SX466_.jpg" height="100px" width="50px">
+        <h2>Headphones</h2>
+        <p>Rs 50000</p>
+        <button>buy now</button>
+    </div>
+    <div class="product">
+        <img src="https://m.media-amazon.com/images/I/71mg07VIi3L._AC_SY741_.jpg "height="100px" width="75px">
+        <h2>Dress</h2>
+        <p>Rs 7000</p>
+        <button>buy now</button>
+    </div>
+</body>
+</html>
